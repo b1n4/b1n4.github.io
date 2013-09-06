@@ -11,10 +11,12 @@
 }
 body {
   background: #eee;
+  background-image: url("/images/bg.png");
   color: #444;
-  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
-  font-size: 14px;
-  text-shadow: 0 0 1px transparent;
+  font-family: Georgia, 'Times New Roman', Times, 'Songti SC', SimSun, "Microsoft YaHei", serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-shadow: 0 0 2px transparent;
 }
 @media screen and (max-width: 1260px) {
   body {
@@ -45,10 +47,10 @@ h3 {
 }
 a {
   text-decoration: none;
-  color: #258fb8;
+  color: #0085ff;
 }
 a:hover {
-  text-decoration: underline;
+  color: #102b6a;
 }
 .alignleft {
   float: left;
@@ -109,7 +111,7 @@ a:hover {
   color: #999;
 }
 #header a:hover {
-  color: #258fb8;
+  color: #0085ff;
   text-decoration: none;
 }
 #header h1 {
@@ -241,7 +243,7 @@ article header .icon {
   position: absolute;
   top: 20px;
   left: 20px;
-  color: #258fb8;
+  color: #0085ff;
 }
 @media screen and (max-width: 600px) {
   article header .icon {
@@ -270,7 +272,7 @@ article header .title a {
   color: #444;
 }
 article header .title a:hover {
-  color: #258fb8;
+  color: #0085ff;
   text-decoration: none;
 }
 article .entry {
@@ -437,7 +439,7 @@ article footer a {
   color: #999;
 }
 article footer a:hover {
-  color: #258fb8;
+  color: #0085ff;
   text-decoration: none;
 }
 article footer a:before {
@@ -499,7 +501,7 @@ article footer .addthis iframe {
   margin-bottom: 50px;
 }
 #pagination a:hover {
-  background: #258fb8;
+  background: #0085ff;
   color: #fff;
   text-decoration: none;
   text-shadow: none;
@@ -679,10 +681,10 @@ article footer .addthis iframe {
   font-size: 100%;
 }
 .entry .gist .gist-file .gist-meta a {
-  color: #258fb8;
+  color: #0085ff;
 }
 .entry .gist .gist-file .gist-meta a:visited {
-  color: #258fb8;
+  color: #0085ff;
 }
 figure.highlight {
   background: #eee;
