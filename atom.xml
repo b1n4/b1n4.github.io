@@ -4,21 +4,27 @@
   <subtitle><![CDATA[Markdown Newbie]]></subtitle>
   <link href="http://b1n4.github.io/atom.xml" rel="self"/>
   <link href="http://b1n4.github.io"/>
-  <updated>2013-09-06T17:09:33.648Z</updated>
+  <updated>2013-09-06T17:12:11.177Z</updated>
   <id>http://b1n4.github.io/</id>
   <author>
     <name><![CDATA[B1n4]]></name>
   </author>
   <generator uri="http://zespia.tw/hexo">Hexo</generator>
   <entry>
+    <title type="html"><![CDATA[1]]></title>
+    <link href="http://b1n4.github.io/2013/09/07/1/"/>
+    <id>http://b1n4.github.io/2013/09/07/1/</id>
+    <published>2013-09-06T17:11:50.000Z</published>
+    <updated>2013-09-06T17:11:50.000Z</updated>
+    <content type="html"><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title type="html"><![CDATA[MarkdownTest]]></title>
     <link href="http://b1n4.github.io/2013/09/07/markdowntest/"/>
     <id>http://b1n4.github.io/2013/09/07/markdowntest/</id>
     <published>2013-09-06T17:04:26.000Z</published>
-    <updated>2013-09-06T17:09:03.000Z</updated>
-    <content type="html"><![CDATA[<h3>随便写点东西~</h3>
-<p>　　加个链接<a href="http://www.google.com.hk" target="_blank">Google</a></p>
-<blockquote>
+    <updated>2013-09-06T17:11:05.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
 <p>彪悍的人生不需要解释。</p>
 </blockquote>
 <p><img src="http://ww1.sinaimg.cn/large/a2885e5bgw1e8d9nyh0hkj20d609hab2.jpg" alt="pic"></p>
@@ -118,6 +124,7 @@
 </tr>
 </tbody>
 </table>
+<p><a href="http://www.google.com.hk" target="_blank">Google</a></p>
 ]]></content>
   </entry>
   <entry>
