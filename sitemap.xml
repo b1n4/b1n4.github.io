@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://b1n4.github.io/2013/09/07/markdowntest/</loc>
+    <lastmod>2013-09-06T17:05:31.000Z</lastmod>
+  </url>
+  <url>
     <loc>http://b1n4.github.io/about/index.html</loc>
     <lastmod>2013-09-06T16:31:07.000Z</lastmod>
   </url>
