@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Markdown Newbie]]></subtitle>
   <link href="http://b1n4.github.io/atom.xml" rel="self"/>
   <link href="http://b1n4.github.io"/>
-  <updated>2013-09-07T09:25:57.131Z</updated>
+  <updated>2013-09-07T09:31:33.678Z</updated>
   <id>http://b1n4.github.io/</id>
   <author>
     <name><![CDATA[B1n4]]></name>
@@ -15,7 +15,7 @@
     <link href="http://b1n4.github.io/2013/09/07/hexo/"/>
     <id>http://b1n4.github.io/2013/09/07/hexo/</id>
     <published>2013-09-07T04:52:36.000Z</published>
-    <updated>2013-09-07T09:21:02.000Z</updated>
+    <updated>2013-09-07T09:30:18.000Z</updated>
     <content type="html"><![CDATA[<p><img src="http://ww2.sinaimg.cn/large/a2885e5bgw1e8dz81wwe6j20mp09baau.jpg" alt="hexo"></p>
 <p>　　刚开始接触hexo。。。貌似<a href="https://github.com/tommy351/hexo/issues/299" target="_blank">作者</a>把除了英文以外的文档都删了，硬着头皮看了英文文档似懂非懂，搜索了下还是有几篇入门<a href="http://zipperary.com/categories/hexo/" target="_blank">教程</a>可以参考，按部就班部署到github上之后按照博主博客的样子改造(抄袭？)了一番。。。</p>
 <a id="more"></a>
@@ -23,7 +23,7 @@
 <h3>1. 添加Fork me标志</h3>
 <p>修改 <code>themes/light/layout/layout.ejs</code>  在末尾添加</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"https://www.example.com"</span> <span class="attribute">target</span>=<span class="value">"_blank"</span>&gt;</span><span class="tag">&lt;<span class="title">img</span> <span class="attribute">style</span>=<span class="value">"position: absolute; top: 0; left: 0; border: 0;"</span> <span class="attribute">src</span>=<span class="value">"example.png"</span> <span class="attribute">alt</span>=<span class="value">"Fork me on GitHub"</span>&gt;</span><span class="tag">&lt;/<span class="title">a</span>&gt;</span>
+</pre></td><td class="code"><pre><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"https://www.example.com"</span> <span class="attribute">target</span>=<span class="value">"_blank"</span>&gt;</span><span class="tag">&lt;<span class="title">img</span> <span class="attribute">style</span>=<span class="value">"position: absolute; top: 0; left: 0; border: 0;"</span> <span class="attribute">src</span>=<span class="value">"https://s3.amazonaws.com/github/ribbons/forkme_left_white_ffffff.png"</span> <span class="attribute">alt</span>=<span class="value">"Fork me on GitHub"</span>&gt;</span><span class="tag">&lt;/<span class="title">a</span>&gt;</span>
 </pre></td></tr></table></figure>
 
 <h3>2. 添加post-content阴影效果</h3>
