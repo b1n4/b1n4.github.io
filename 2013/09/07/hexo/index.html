@@ -1,22 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[B1n4's blog]]></title>
-  <subtitle><![CDATA[Markdown Newbie]]></subtitle>
-  <link href="http://b1n4.github.io/atom.xml" rel="self"/>
-  <link href="http://b1n4.github.io"/>
-  <updated>2013-09-07T09:22:51.956Z</updated>
-  <id>http://b1n4.github.io/</id>
-  <author>
-    <name><![CDATA[B1n4]]></name>
-  </author>
-  <generator uri="http://zespia.tw/hexo">Hexo</generator>
-  <entry>
-    <title type="html"><![CDATA[初识hexo]]></title>
-    <link href="http://b1n4.github.io/2013/09/07/hexo/"/>
-    <id>http://b1n4.github.io/2013/09/07/hexo/</id>
-    <published>2013-09-07T04:52:36.000Z</published>
-    <updated>2013-09-07T09:21:02.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="http://ww2.sinaimg.cn/large/a2885e5bgw1e8dz81wwe6j20mp09baau.jpg" alt="hexo"></p>
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>初识hexo | B1n4's blog</title>
+  <meta name="author" content="B1n4">
+  
+  <meta name="description" content="B1n4's blog">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="初识hexo"/>
+  <meta property="og:site_name" content="B1n4's blog"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/favicon.ico" rel="icon" type="image/x-ico">
+  <link rel="alternate" href="/atom.xml" title="B1n4's blog" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+
+
+<body>
+  <header id="header" class="inner"><div class="alignleft">
+  <h1><a href="/">B1n4's blog</a></h1>
+  <h2><a href="/">Markdown Newbie</a></h2>
+</div>
+<nav id="main-nav" class="alignright">
+  <ul>
+    
+      <li><a href="/">Home</a></li>
+    
+      <li><a href="/archives">Archives</a></li>
+    
+    <li> <a href="/atom.xml">RSS</a> </li>
+  </ul>
+  <div class="clearfix"></div>
+</nav>
+<div class="clearfix"></div></header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper"><article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2013-09-07T04:52:36.000Z"><a href="/2013/09/07/hexo/">9月 7 2013</a></time>
+      
+      
+  
+    <h1 class="title">初识hexo</h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p><img src="http://ww2.sinaimg.cn/large/a2885e5bgw1e8dz81wwe6j20mp09baau.jpg" alt="hexo"></p>
 <p>　　刚开始接触hexo。。。貌似<a href="https://github.com/tommy351/hexo/issues/299" target="_blank">作者</a>把除了英文以外的文档都删了，硬着头皮看了英文文档似懂非懂，搜索了下还是有几篇入门<a href="http://zipperary.com/categories/hexo/" target="_blank">教程</a>可以参考，按部就班部署到github上之后按照博主博客的样子改造(抄袭？)了一番。。。</p>
 <a id="more"></a>
 
@@ -238,128 +282,121 @@ text-shadow 0 0 2px transparent</code></p>
 <p>生成post时默认生成categories配置项：<br>在<code>scaffolds/post.md</code>中，添加一行<code>categories:</code>。</p>
 <p>添加小图标：<br>在<code>themes/light/layout/_partial/head.ejs</code>里将<br><code>&lt;link href=&quot;&lt;%- config.root %&gt;favicon.png&quot; rel=&quot;icon&quot;&gt;</code><br>替换为<code>&lt;link href=&quot;&lt;%- config.root %&gt;favicon.ico&quot; rel=&quot;icon&quot; type=&quot;image/x-ico&quot;&gt;</code><br>将favicon.ico图标文件放在source目录下。</p>
 <p>主页文章显示摘要：<br>添加<code>&lt;!--more--&gt;</code>。</p>
-]]></content>
-    <category scheme="http://b1n4.github.io/tags/hexo/" term="hexo"/>
-    <category scheme="http://b1n4.github.io/categories/hexo/" term="hexo"/>
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[Markdown Test]]></title>
-    <link href="http://b1n4.github.io/2013/09/07/markdown-test/"/>
-    <id>http://b1n4.github.io/2013/09/07/markdown-test/</id>
-    <published>2013-09-06T17:04:26.000Z</published>
-    <updated>2013-09-06T17:34:00.000Z</updated>
-    <content type="html"><![CDATA[<h2><center><img src="http://ww1.sinaimg.cn/large/a2885e5bgw1e8d9nyh0hkj20d609hab2.jpg" alt="pic"></center></h2>
-<blockquote>
-<p>彪悍的人生不需要解释。</p>
-</blockquote>
-<p><a id="more"></a></p>
-<figure class="highlight"><table><tr><td class="gutter"><pre>1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-</pre></td><td class="code"><pre><span class="tag">body</span> <span class="rules">{
-  <span class="rule"><span class="attribute">background</span>:<span class="value"> <span class="hexcolor">#eee</span>;</span></span>
-  <span class="rule"><span class="attribute">color</span>:<span class="value"> <span class="hexcolor">#444</span>;</span></span>
-  <span class="rule"><span class="attribute">font-family</span>:<span class="value"> <span class="string">"Helvetica Neue"</span>, <span class="string">"Helvetica"</span>, Arial, sans-serif;</span></span>
-  <span class="rule"><span class="attribute">font-size</span>:<span class="value"> <span class="number">14</span>px;</span></span>
-  <span class="rule"><span class="attribute">text-shadow</span>:<span class="value"> <span class="number">0</span> <span class="number">0</span> <span class="number">1</span>px transparent;</span></span>
-<span class="rule">}</span></span>
-<span class="at_rule">@<span class="keyword">media</span> screen and (max-width: <span class="number">1260</span>px) </span>{
-  <span class="tag">body</span> <span class="rules">{
-    <span class="rule"><span class="attribute">margin</span>:<span class="value"> <span class="number">0</span> <span class="number">30</span>px;</span></span>
-  <span class="rule">}</span></span>
-}
-<span class="at_rule">@<span class="keyword">media</span> screen and (max-width: <span class="number">600</span>px) </span>{
-  <span class="tag">body</span> <span class="rules">{
-    <span class="rule"><span class="attribute">font-size</span>:<span class="value"> <span class="number">13</span>px;</span></span>
-  <span class="rule">}</span></span>
-}
-<span class="tag">h1</span>,
-<span class="tag">h2</span>,
-<span class="tag">h3</span>,
-<span class="tag">h4</span>,
-<span class="tag">h5</span>,
-<span class="tag">h6</span> <span class="rules">{
-  <span class="rule"><span class="attribute">font-family</span>:<span class="value"> <span class="string">"Lato"</span>, Helvetica Neue, Helvetica, Arial, sans-serif;</span></span>
-<span class="rule">}</span></span>
-<span class="tag">h1</span> <span class="rules">{
-  <span class="rule"><span class="attribute">font-size</span>:<span class="value"> <span class="number">1.8</span>em;</span></span>
-<span class="rule">}</span></span>
-<span class="tag">h2</span> <span class="rules">{
-  <span class="rule"><span class="attribute">font-size</span>:<span class="value"> <span class="number">1.5</span>em;</span></span>
-<span class="rule">}</span></span>
-<span class="tag">h3</span> <span class="rules">{
-  <span class="rule"><span class="attribute">font-size</span>:<span class="value"> <span class="number">1.3</span>em;</span></span>
-<span class="rule">}</span></span>
-<span class="tag">a</span> <span class="rules">{
-  <span class="rule"><span class="attribute">text-decoration</span>:<span class="value"> none;</span></span>
-  <span class="rule"><span class="attribute">color</span>:<span class="value"> <span class="hexcolor">#258fb8</span>;</span></span>
-<span class="rule">}</span></span>
-</pre></td></tr></table></figure>
 
-<h4>Table</h4>
-<table>
-<thead>
-<tr>
-<th>A</th>
-<th align="right">B</th>
-<th align="right">C</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td align="right">2</td>
-<td align="right">3</td>
-</tr>
-</tbody>
-</table>
-<p><a href="http://www.google.com.hk" target="_blank">Google</a></p>
-]]></content>
-    <category scheme="http://b1n4.github.io/tags/Markdown/" term="Markdown"/>
-    <category scheme="http://b1n4.github.io/categories/Markdown/" term="Markdown"/>
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://b1n4.github.io/2013/09/06/hello-world/"/>
-    <id>http://b1n4.github.io/2013/09/06/hello-world/</id>
-    <published>2013-09-06T07:16:35.000Z</published>
-    <updated>2013-09-06T07:16:35.000Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="http://zespia.tw/hexo" target="_blank">Hexo</a>! This is your very first post. Check <a href="http://zespia.tw/hexo/docs" target="_blank">documentation</a> to learn how to use.</p>
-]]></content>
-  </entry>
-</feed>
+      
+    </div>
+    <footer>
+      
+        
+  
+  <div class="categories">
+    <a href="/categories/hexo/">hexo</a>
+  </div>
+
+        
+  
+  <div class="tags">
+    <a href="/tags/hexo/">hexo</a>
+  </div>
+
+        <!-- Baidu Button BEGIN -->
+        <div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare">
+        <a class="bds_qzone"></a>
+        <a class="bds_tsina"></a>
+        <a class="bds_tqq"></a>
+        <a class="bds_renren"></a>
+        <a class="bds_t163"></a>
+        <span class="bds_more"></span>
+        <a class="shareCount"></a>
+        </div>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6809479" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        <script type="text/javascript">
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+<!-- Baidu Button END -->
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+<section id="comment">
+	<!-- Duoshuo Comment BEGIN -->
+	<div class="ds-thread"></div>
+	<script type="text/javascript">
+var duoshuoQuery = {short_name:"b1n4"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- Duoshuo Comment END -->
+</section>
+</div></div>
+    <aside id="sidebar" class="alignright">
+  <div class="search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="搜索">
+    <input type="hidden" name="q" value="site:b1n4.github.io">
+  </form>
+</div>
+
+  
+<div class="widget tag">
+  <h3 class="title">分类</h3>
+  <ul class="entry">
+  
+    <li><a href="/categories/Markdown/">Markdown</a><small>1</small></li>
+  
+    <li><a href="/categories/hexo/">hexo</a><small>1</small></li>
+  
+  </ul>
+</div>
+
+
+  
+<div class="widget tagcloud">
+  <h3 class="title">标签云</h3>
+  <div class="entry">
+    <a href="/tags/Markdown/" style="font-size: 10.00px;">Markdown</a><a href="/tags/hexo/" style="font-size: 15.00px;">hexo</a>
+  </div>
+</div>
+
+
+  
+</aside>
+    <div class="clearfix"></div>
+  </div>
+  <footer id="footer" class="inner"><div class="alignleft">
+  
+  &copy; 2013 B1n4
+  
+</div>
+<div class="alignright" style="margin-right:300px">
+<script src="http://s20.cnzz.com/stat.php?id=5639733&web_id=5639733&show=pic" language="JavaScript"></script>
+</div>
+<div class="clearfix"></div></footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+</body>
+</html>
+<a href="https://github.com/b1n4" target="_blank"><img style="position: absolute; top: 0; left: 0; border: 0;" src="forkme_left_white_ffffff.png" alt="Fork me on GitHub"></a>

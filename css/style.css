@@ -180,7 +180,7 @@ article .post-content:before {
   bottom: 15px;
   left: 10px;
   width: 50%;
-  height: 20%;
+  height: 1%;
   -webkit-box-shadow: 0 15px 10px rgba(0,0,0,0.7);
   -moz-box-shadow: 0 15px 10px rgba(0,0,0,0.7);
   -webkit-box-shadow: 0 15px 15px rgba(0,0,0,0.7);
@@ -201,7 +201,7 @@ article .post-content:after {
   bottom: 15px;
   left: 10px;
   width: 50%;
-  height: 20%;
+  height: 1%;
   -webkit-box-shadow: 0 15px 10px rgba(0,0,0,0.7);
   -moz-box-shadow: 0 15px 10px rgba(0,0,0,0.7);
   -webkit-box-shadow: 0 15px 15px rgba(0,0,0,0.7);
