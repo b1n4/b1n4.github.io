@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Markdown Newbie]]></subtitle>
   <link href="http://b1n4.github.io/atom.xml" rel="self"/>
   <link href="http://b1n4.github.io"/>
-  <updated>2013-09-07T09:36:34.681Z</updated>
+  <updated>2013-09-07T09:49:00.674Z</updated>
   <id>http://b1n4.github.io/</id>
   <author>
     <name><![CDATA[B1n4]]></name>
@@ -15,18 +15,18 @@
     <link href="http://b1n4.github.io/2013/09/07/hexo/"/>
     <id>http://b1n4.github.io/2013/09/07/hexo/</id>
     <published>2013-09-07T04:52:36.000Z</published>
-    <updated>2013-09-07T09:30:18.000Z</updated>
+    <updated>2013-09-07T09:48:26.000Z</updated>
     <content type="html"><![CDATA[<p><img src="http://ww2.sinaimg.cn/large/a2885e5bgw1e8dz81wwe6j20mp09baau.jpg" alt="hexo"></p>
 <p>　　刚开始接触hexo。。。貌似<a href="https://github.com/tommy351/hexo/issues/299" target="_blank">作者</a>把除了英文以外的文档都删了，硬着头皮看了英文文档似懂非懂，搜索了下还是有几篇入门<a href="http://zipperary.com/categories/hexo/" target="_blank">教程</a>可以参考，按部就班部署到github上之后按照博主博客的样子改造(抄袭？)了一番。。。</p>
 <a id="more"></a>
 
-<h3>1. 添加Fork me标志</h3>
+<h3>添加Fork me标志</h3>
 <p>修改 <code>themes/light/layout/layout.ejs</code>  在末尾添加</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre>1
 </pre></td><td class="code"><pre><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"https://www.example.com"</span> <span class="attribute">target</span>=<span class="value">"_blank"</span>&gt;</span><span class="tag">&lt;<span class="title">img</span> <span class="attribute">style</span>=<span class="value">"position: absolute; top: 0; left: 0; border: 0;"</span> <span class="attribute">src</span>=<span class="value">"https://s3.amazonaws.com/github/ribbons/forkme_left_white_ffffff.png"</span> <span class="attribute">alt</span>=<span class="value">"Fork me on GitHub"</span>&gt;</span><span class="tag">&lt;/<span class="title">a</span>&gt;</span>
 </pre></td></tr></table></figure>
 
-<h3>2. 添加post-content阴影效果</h3>
+<h3>添加post-content阴影效果</h3>
 <p>找到 <code>themes/light/source/css/_partial/article.styl</code><br>修改</p>
 <figure class="highlight lang-css"><table><tr><td class="gutter"><pre>1
 2
@@ -131,7 +131,7 @@
       transform <span class="function">rotate(<span class="number">2</span>deg)</span>
 </pre></td></tr></table></figure>
 
-<h3>3. 添加百度分享、CCNZZ、多说</h3>
+<h3>添加百度分享、CCNZZ、多说</h3>
 <p>百度分享：</p>
 <p>到<a href="http://share.baidu.com/code" target="_blank">百度分享</a>获得代码，在<code>themes/light/layout/_partial/article.ejs</code>中，将&lt;%-partial(‘post/share’)%&gt;删掉，替换为百度分享的代码。</p>
 <p>CNZZ：</p>
@@ -194,7 +194,7 @@ CNZZ代码
 </pre></td></tr></table></figure>
 
 <p>需要注意的是，因为comment在没有绑定disqus的 情况下是默认不显示的，所以在<code>comment.ejs</code>的第一行，请把 <code>config.disqus_shortname &amp;&amp;</code>删掉，或者在<code>root/_config.yml</code>里面，随意填写一个<code>disqus shortname</code>，保证能够显示comments即可。<br>PS: 在多说后台自定义CSS添加:<code>ds-powered-by { display: none!important;}</code>可以隐藏<code>XXX正在使用多说</code>哦~ ^ ^</p>
-<h3>4. 404页面</h3>
+<h3>404页面</h3>
 <p>此处参考了<a href="http://jiabin.tk/404" target="_blank">Byron</a>的404页面~</p>
 <p>需要在页面顶部添加<code>layout: false</code>防止hexo解析，三横线必须的。<a href="http://b1n4.github.com/404" target="_blank">我的404Page</a></p>
 <figure class="highlight"><table><tr><td class="gutter"><pre>1
@@ -203,7 +203,7 @@ CNZZ代码
 <span class="literal">-</span><span class="literal">-</span><span class="literal">-</span>
 </pre></td></tr></table></figure>
 
-<h3>5. 修改字体样式背景等等</h3>
+<h3>修改字体样式背景等等</h3>
 <p>此处完全照搬<a href="http://zipperary.com/" target="_blank">/<em>moxie</em></a>博客。。。</p>
 <p>logo字体：位置<code>themes/light/source/css/_partial/header.styl</code><br>修改<code>h1: font-size: 2.5em;</code>-&gt;<code>h1: font-size: 3.5em;</code></p>
 <p>背景图：位置 <code>themes/light/source/css/_base/layout.styl</code><br>添加<code>background-image url(&#39;/images/bg.png&#39;)</code></p>
@@ -225,7 +225,9 @@ text-shadow 0 0 2px transparent</code></p>
     <span class="keyword">color</span> <span class="preprocessor">#102b6a</span>
 </pre></td></tr></table></figure>
 
-<p><code>themes/light/source/css/_base/variable.styl</code><br><code>color-link = #258fb8</code>-&gt;<code>color-link = #0085ff</code><br><code>font-default = &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Arial, sans-serif</code><br>-&gt;<code>font-default = Georgia, &#39;Times New Roman&#39;, Times, &#39;Songti SC&#39;, SimSun, &quot;Microsoft YaHei&quot;, serif</code></p>
+<p><code>themes/light/source/css/_base/variable.styl</code><br><code>color-link = #258fb8</code>-&gt;<code>color-link = #0085ff</code></p>
+<p><code>font-default = &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Arial, sans-serif</code><br>-&gt;<code>font-default = Georgia, &#39;Times New Roman&#39;, Times, &#39;Songti SC&#39;, SimSun, &quot;Microsoft YaHei&quot;, serif</code></p>
+<p><code>themes/light/source/css/_partial/article.styl</code><br><code>h1, h2, h3, h4, h5, h6: font-weight normal</code><br>-&gt;<code>h1, h2, h3, h4, h5, h6: font-weight blod</code></p>
 <p>添加分类、标签云widget：<br><code>themes/light/_config.yml</code>添加</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre>1
 2
